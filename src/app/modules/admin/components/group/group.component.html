@@ -1,0 +1,14 @@
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">Name</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let elem of groups">
+      <th scope="row">{{ elem.id }}</th>
+      <td>{{ elem.name }}</td>
+    </tr>
+  </tbody>
+</table>

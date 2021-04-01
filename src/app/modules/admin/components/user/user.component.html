@@ -1,0 +1,14 @@
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let elem of users">
+      <th scope="row">{{ elem.id }}</th>
+      <td>{{ elem.name }}</td>
+    </tr>
+  </tbody>
+</table>
